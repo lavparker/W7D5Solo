@@ -6,13 +6,26 @@ section, img, div, h2, p, form,
 fieldset, label, input, textarea,
 span, article, footer, time, small {
 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: inherit;
+    font: inherit;
+    vertical-align: inherit;
+    box-sizing: inherit;
+    background: rosybrown;
+    text-align: inherit;
+
 }
 
 ul {
-
+    list-style: none;
 }
 
 img {
+    display: block;
+    width: 100%;
+    height: auto; 
 
 }
 
